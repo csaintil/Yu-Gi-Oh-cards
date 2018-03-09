@@ -1,0 +1,14 @@
+
+
+<div class="form">
+  
+ <p><%= form_for @owner do |form| %></p>
+ <p>Name: <%= form.text_field :name %></br></p>
+<p>Age:  <%= form.text_field :age %></br></p>
+<p>Status: <%= form.text_field :level %></br></p>
+<p>Picture:  <%= form.text_field :img_url %></br></p>
+<p>Choose a random card <%= form.text_field :card_id %></br></p>
+
+  <p><%= form.submit %></p>
+<% end -%>
+</div>

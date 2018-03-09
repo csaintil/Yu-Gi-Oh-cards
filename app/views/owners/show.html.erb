@@ -1,0 +1,11 @@
+<div class="show">
+
+<h1>Here's the information Mr/Mrs <%= @owner[:name] %> </h1>
+  <p>Name: <%= @owner[:name] %></p>
+  <p> AGE: <%= @owner[:age] %></p>
+<p> STATUS: <%= @owner[:level] %></p>
+<p> card: <%= @owner[:card_id] %></p>
+
+
+<%= link_to('Your Toys Cards Collection', "/owners/#{@owner.card_id}/cards") %>
+</div>

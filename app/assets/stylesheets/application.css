@@ -1,0 +1,110 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Meie+Script');
+
+.edit {
+    /*  background: yellow;
+*/
+}
+
+.index {
+    /*background-image: url("M.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-size: 30px;
+    /*display: flex;*/
+}
+
+.info {
+    display: flex;
+}
+
+html {
+    background-image: url("M.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    /*font-family: 'Meie Script', cursive;*/
+}
+
+.name {
+    display: flex;
+}
+
+.form>button_to {
+    color: red;
+}
+
+.edit_link {
+    /*position: absolute;
+    top: 72%;*/
+}
+
+.form {
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    background: #19191587;
+    border: 2px solid black;
+    font-size: 30px;
+    color: #E07400;
+}
+.show {
+  text-align: center;
+  border: 2px solid black;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 30%;
+  left: 38%;
+  background-color: #6262324f;
+  /*color:gold;*/
+}
+a {
+  text-decoration-line: none;
+  color:white;
+  text-shadow: 2px 2px 5px red
+}
+a:hover {
+  color:gold;
+}
+.card {
+  text-align: center;
+}
+span {
+  color:;
+}
+.new {
+  position: relative;
+  top: -300px;
+  left: 580px;
+  font-size: 30px;
+  border:2px solid black;
+  width: 250px;
+  background: black;
+  border-radius: 5px;
+
+}
+h1 {
+  text-shadow: 2px 2px 5px red;
+  color: white;
+}
+.cards {
+  display: inline;
+  text-align: center;
+}

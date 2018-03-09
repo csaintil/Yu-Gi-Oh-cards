@@ -1,0 +1,10 @@
+<div class="card">
+  
+  <h1>Your Cards</h1>
+  <p>Name: <%= @cards[:name] %></p>
+   <p> Power: <%= @cards[:power] %></p>
+ <p><img src="<%= @cards[:img_url] %>" alt=""></p>
+ <p>Weight: <%= @cards[:weight] %></p>
+ <%= link_to "Go back to All players",owners_path %>
+
+</div>

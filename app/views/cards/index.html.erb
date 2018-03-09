@@ -1,0 +1,12 @@
+<div class="cards">
+     
+   <h1>All the cards</h1>
+    <% @cards.each do |card| %>
+    <p><span>NAME: </span> <%= card[:name] %></p>
+    <p> <span>POWER: </span> <%= card[:power] %></p>
+    <p> <span>WEIGHT: </span><%= card[:weight] %></p> 
+     <p><img src="<%=  card[:img_url] %>" alt=""></p>
+
+    <% end -%>
+<%= link_to "Go back to All players",owners_path %>
+</div>
